@@ -252,7 +252,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(auto-fill, 280px);
   grid-auto-rows: 10px;
-    grid-column-gap: 50px;
+  grid-column-gap: 50px;
   grid-row-gap: 0.75px;
   justify-content: center;
 }
@@ -316,6 +316,30 @@ nav {
 }
 .insta-lc i {
   font-size: 20px;
+}
+.view-more {
+  display: grid;
+  place-items: center;
+  background-color: #000;
+  border-radius: 15px;
+  width: 220px;
+  padding: 10px 20px;
+  margin: 20px auto;
+  transition: all 0.5s ease;
+}
+.view-more img {
+  width: 30px;
+  margin: 0 20px 0 0;
+}
+.view-more a {
+  color: #fff;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.view-more:hover {
+  transform: scale(1.05);
 }
 /* Services */
 .services p {
