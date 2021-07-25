@@ -1,0 +1,68 @@
+/* CSS QUERIES */
+@media only screen and (max-width: 980px) {
+  .headings {
+    margin-right: 5px;
+  }
+  h1 {
+    color: #fff;
+  }
+  h4 {
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+  }
+}
+@media only screen and (max-width: 1015px) {
+  h4 {
+    font-size: 1.7rem;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .about-container {
+    flex-direction: column;
+    width: 95%;
+  }
+  .about-container p {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  section {
+    padding: 4rem 0;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .nav {
+    display: none;
+    padding: 2rem 0;
+  }
+  .nav-mobile {
+    display: contents;
+  }
+}
+@media only screen and (max-width: 445px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 445px) {
+  .service div {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 290px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (max-height: 660px) {
+  .social-links-header {
+    flex-direction: row;
+  }
+}
+@media only screen and (max-height: 400px) {
+  #home {
+    min-height: 160vh;
+  }
+}
