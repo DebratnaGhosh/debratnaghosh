@@ -122,9 +122,8 @@ nav {
 .nav-mobile {
   display: none;
 }
-.nav-mobile i {
-  font-size: 20px;
-  color: #fff;
+.nav-mobile img {
+  width: 35px;
 }
 .logo-link img {
   width: 160px;
