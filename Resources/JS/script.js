@@ -41,10 +41,8 @@ const sticky = function (entry) {
   const [entries] = entry;
   if (!entries.isIntersecting) {
     nav.classList.add("sticky");
-    logo.setAttribute("src", "Resources/Images/Logo-White.png");
   } else {
     nav.classList.remove("sticky");
-    logo.setAttribute("src", "Resources/Images/Logo.png");
   }
 };
 const observerHeader = new IntersectionObserver(sticky, {
